@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    border-bottom:black 3px solid;
+    background-color: RGB(255, 215, 0);
+}
+.Logo img{
+    width: 120px;
+    border-radius: 100px;
+
+    
+}
+
+.nav{
+    display: flex;
+    gap: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: RGB(10, 36, 99);
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+main{
+display: flex;
+justify-content: center;
+
+background-color: RGB(10, 36, 99) ;
+}
+
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     padding-top: 100px;
+     padding-bottom: 100px;
+    background-image: url(images/jewerly\ banner.jpg);
+    width: 80%;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: yellow 0px 0px 20px 5px;
+    color: RGB(255, 215, 0);
+
+}
