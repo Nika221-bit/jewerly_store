@@ -130,6 +130,36 @@ background-color: RGB(10, 36, 99) ;
     
 }
 
+
+.about-container{display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+                   gap: 20px;
+                 color: RGB(255, 215, 0);}
+
+
+.about-content{display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+                   gap: 20px;
+                 color: RGB(255, 215, 0);}
+
+.contact-container {display: flex;
+                   flex-direction: column;
+                    justify-content: center;
+                   align-items: center;
+                   gap: 20px;
+                 color: RGB(255, 215, 0);}                
+
+
+.contact-info {display: flex;
+                   flex-direction: column;
+                    justify-content: center;
+                   align-items: center;
+                   gap: 20px;
+                 color: RGB(255, 215, 0);}             
 footer{
     background-color: RGB(10, 36, 99);
     color: RGB(255, 215, 0);
@@ -204,8 +234,8 @@ footer{
     gap: 20px;
 }
 
-
-
+.mainc{height: 500px;}
+.maina{height: 500px;}
 .ring_column{
     display: flex;
     flex-direction: column;
