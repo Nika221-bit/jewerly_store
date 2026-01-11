@@ -127,6 +127,7 @@ background-color: RGB(10, 36, 99) ;
     height: 200px;
     border-radius: 10px;
     object-fit: cover;
+    
 }
 
 footer{
@@ -222,6 +223,7 @@ footer{
 .ring img{
     width: 200px;
     height: 200px;
+    background-color: white;
 }
 
 .fb{
