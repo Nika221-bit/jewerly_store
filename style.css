@@ -238,7 +238,7 @@ footer{
 .maina{height: 500px;}
 .ring_column{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 .ring{
@@ -270,6 +270,9 @@ footer{
 
 }
 @media (max-width: 768px) {
+      
+    
+    }
     .main2 {
         flex-direction: column;
         width: 90%;
@@ -285,43 +288,189 @@ footer{
     .ring_divs{
         flex-direction: column;
     }
-}
 
-@media (max-width: 480px) {
     .main2 {
-        width: 95%;
-        gap: 15px;
+        flex-direction: column;
+        width: 90%;
     }
 
     .left {
-        padding: 15px;
+        width: 100%;
     }
 
     .right {
-        padding: 15px;
+        width: 100%;
+    }
+    .ring_divs{
+        flex-direction: column;
+    }
+@media (max-width: 768px) {
+      
+    
+    }
+    .main2 {
+        flex-direction: column;
+        width: 90%;
     }
 
-    .left h1 {
-        font-size: 20px;
+    .left {
+        width: 100%;
     }
 
-    .left h3 {
-        font-size: 14px;
+    .right {
+        width: 100%;
     }
-
-    .main3{
+    .ring_divs{
         flex-direction: column;
     }
 
-    .footer-content{
+    .main2 {
         flex-direction: column;
-        gap: 30px;
+        width: 90%;
     }
 
-    .footer-section{
-        text-align: center;
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+    .ring_divs{
+        flex-direction: column;
+    }
+
+
+@media (max-width: 1024px) {
+    header {
+        padding: 25px 5%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .main2 {
+        flex-direction: column;
+        width: 90%;
+        padding: 30px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
     }
 }
 
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .nav a {
+        font-size: 17px;
+    }
+
+    .main1 {
+        width: 92%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .main2 {
+        flex-direction: column;
+        width: 92%;
+        margin-top: 60px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .main3 {
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 20px;
+        margin-top: 30px;
+    }
+
+    .category {
+        width: 100%;
+        max-width: 340px;
+        height: 220px;
+    }
+
+    .ring_divs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ring_column {
+        flex-direction: column;
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .ring img {
+        width: 100%;
+        height: auto;
+        max-width: 260px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .Logo img {
+        width: 90px;
+    }
+    
+    .nav a {
+        font-size: 15px;
+    }
+
+    .main1 {
+        padding: 50px 15px;
+        margin-top: 30px;
+    }
+
+    .main2 {
+        padding: 25px 15px;
+    }
+
+    .main2_btn {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .category {
+        height: 200px;
+        width: 200px;
+    }
+
+    .ring img {
+        max-width: 220px;
+    }
+
+    footer {
+        padding: 50px 20px;
+    }
+}
 
 
