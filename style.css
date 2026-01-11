@@ -189,7 +189,54 @@ footer{
     font-size: 13px;
 }
 
+.rings{display: flex;
+    flex-direction: column;
+    background-color: RGB(10, 36, 99);
+    color:RGB(255, 215, 0);
+    gap: 10px;
+    padding-bottom:50px ;
+}
 
+.ring_divs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+.ring_column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ring{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: RGB(10, 36, 99);
+    gap: 10px;
+    background-color:RGB(255, 215, 0);
+}
+
+.ring img{
+    width: 200px;
+    height: 200px;
+}
+
+.fb{
+    background-color: RGB(10, 36, 99);
+    color:RGB(255, 215, 0);
+    padding:5px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.fb:hover{
+    color: RGB(10, 36, 99);
+    background-color:RGB(255, 215, 0);
+
+}
 @media (max-width: 768px) {
     .main2 {
         flex-direction: column;
@@ -202,6 +249,9 @@ footer{
 
     .right {
         width: 100%;
+    }
+    .ring_divs{
+        flex-direction: column;
     }
 }
 
